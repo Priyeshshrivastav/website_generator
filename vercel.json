@@ -1,12 +1,12 @@
 {
   "services": {
     "frontend": {
-      "root": "frontend/",
+      "root": "frontend",
       "framework": "nextjs"
     },
     "backend": {
-      "root": "backend/",
-      "entrypoint": "main:app"
+      "root": "backend",
+      "entrypoint": "app/main.py"
     }
   },
   "rewrites": [
